@@ -1,0 +1,72 @@
+@import "../../../assets/styles/variables/colors.module";
+
+$stepSize: 48px;
+
+.steps-container {
+  margin: 0;
+  padding: 0;
+  // width: calc(100vw - 3rem);
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .step-item {
+    width: $stepSize;
+    height: $stepSize;
+    border-radius: 0.5rem;
+    color: $main-color-1;
+    background-color: #fff;
+    border: 1px solid $main-color-1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .step-compeleted {
+    color: $main-color-1-contrast !important;
+    background-color: $main-color-1 !important;
+  }
+  .step-space {
+    width: 1rem;
+  }
+  .step-connector {
+    width: auto;
+    flex-grow: 1;
+    height: 2px;
+    background-color: #333;
+  }
+
+  // .step-item {
+  //   width: calc((100vw - 3rem) * 0.12);
+  //   height: calc((100vw - 3rem) * 0.12);
+  //   border-radius: 0.5rem;
+  //   color: $main-color-1;
+  //   background-color: #fff;
+  //   border: 1px solid $main-color-1;
+
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  //   align-items: center;
+  //   transition: 0.3s;
+  //   cursor: pointer;
+  // }
+  // .step-selected {
+  //   color: $main-color-1-contrast !important;
+  //   background-color: $main-color-1 !important;
+  // }
+  // .step-space {
+  //   width: calc((100vw - 3rem) * 0.04);
+  // }
+  // .step-connector {
+  //   width: calc((100vw - 3rem) * 0.24);
+  //   height: 2px;
+  //   background-color: #333;
+  // }
+}

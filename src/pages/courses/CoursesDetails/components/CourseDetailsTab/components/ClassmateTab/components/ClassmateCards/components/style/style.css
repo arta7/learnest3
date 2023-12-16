@@ -1,0 +1,16 @@
+.classmate-card-item {
+  border-radius: 60px;
+}
+
+@media screen and (max-width: 550px) {
+  .classmate-card-item {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .classmate-card-item {
+    width: 340px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

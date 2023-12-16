@@ -1,0 +1,108 @@
+:export {
+  main-color-1: #157dbc;
+  main-color-1-dark: #105a88;
+  main-color-1-light: #64baf0;
+  main-color-1-contrast: #ebf7ff;
+  input-background: #dbdbdb;
+}
+
+.level-holder .level-box {
+  position: relative;
+  width: 53px;
+  height: 55px;
+}
+
+.level-holder .level-box img.level-bg-outer {
+  position: absolute;
+  width: 53px;
+  height: 55px;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.level-holder .level-box img.level-bg-inner {
+  position: absolute;
+  width: calc(52px - 8px);
+  height: calc(48px - 8px);
+  right: 5px;
+  top: 4px;
+  z-index: 2;
+}
+
+.level-holder .level-box span.level-info {
+  z-index: 3;
+  width: 40px;
+  top: 5px;
+  height: 37px;
+  right: 7px;
+  position: absolute;
+  background-color: #157dbc;
+}
+
+.level-holder .level-box span.level-info .level-num {
+  color: #ebf7ff;
+  height: 15px;
+}
+
+.level-holder .level-box span.level-info .level-text {
+  color: #ebf7ff;
+  height: 15px;
+  width: 35px;
+  font-size: 90%;
+}
+
+.jem-icon {
+  height: 53px;
+}
+
+.range-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  background: #dbdbdb;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.range-slider:hover {
+  opacity: 1;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 30px;
+  background: #105a88;
+  z-index: 2;
+  position: relative;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 15px;
+  height: 30px;
+  border-radius: 0.3rem;
+  background: #105a88;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+
+.activities {
+  position: relative;
+}
+
+.fill-value {
+  position: absolute;
+  left: 0;
+  height: 15px;
+  top: 0px;
+  background-color: #157dbc;
+}
+/*# sourceMappingURL=styles.css.map */

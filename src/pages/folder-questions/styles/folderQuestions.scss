@@ -1,0 +1,14 @@
+.folder-question-item {
+  border: 1px solid #f3642e;
+  box-shadow: 0 0 3px 1px rgba(243, 100, 46, 0.2);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+.folder-question-item h6 {
+  margin-bottom: 0px !important;
+  @media (max-width: 568px) {
+    font-size: 14px;
+  }
+}

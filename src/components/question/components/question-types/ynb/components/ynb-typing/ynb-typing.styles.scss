@@ -1,0 +1,21 @@
+@import "../../../../../../../assets/styles/variables/colors.module";
+@import "../../../../../../../assets/styles/variables/sizes.module";
+
+.stronger {
+  span {
+    font-size: larger !important;
+    font-weight: 900;
+    height: 4px !important;
+
+
+    &::after{
+        content: "____";
+    }
+    
+    &::before{
+        content: "   ";
+    }
+    // background-color: #333;
+    // width: 80px;
+  }
+}

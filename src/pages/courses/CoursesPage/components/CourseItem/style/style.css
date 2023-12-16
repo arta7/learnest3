@@ -1,0 +1,111 @@
+.card-bg {
+  background-color: #f0f2f9;
+  border-radius: 30px;
+}
+
+.card-img {
+  width: 100%;
+  height: calc(170px + (290 - 170) * ((100vw - 360px) / (800 - 360)));
+  border-radius: 30px;
+}
+
+.card-book {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 455px) {
+  .card-book {
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+.text-grey {
+  color: var(--textGrey) !important;
+}
+
+.badge-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  padding: 15px 3px 8px;
+  margin: 0;
+}
+
+.badge-holder li {
+  padding: 2px 8px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 419px) {
+  .badge-holder li {
+    padding: 2px 8px;
+  }
+}
+
+.badge-holder li.adults {
+  list-style: none;
+  font-size: 11px;
+  color: white;
+  margin: 0 8px;
+  background-color: #ff7e1c;
+}
+
+@media screen and (max-width: 419px) {
+  .badge-holder li.adults {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .badge-holder li.adults {
+    margin: 0 -2px;
+  }
+}
+
+.badge-holder li.childs {
+  list-style: none;
+  font-size: 11px;
+  color: white;
+  margin: 0 8px;
+  background-color: #29ae12;
+}
+
+@media screen and (max-width: 419px) {
+  .badge-holder li.childs {
+    margin: 0 2px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .badge-holder li.childs {
+    margin: 0 3px;
+  }
+}
+
+.week-days-holder {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 420px) {
+  .week-days-holder {
+    font-size: 11px;
+  }
+}
+
+.closed-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  right: 0;
+  cursor: pointer;
+  background: url("../../../../../../assets/img/babak-images/lock.png") no-repeat rgba(0, 0, 0, 0.8) 50% 50%;
+}
+/*# sourceMappingURL=style.css.map */

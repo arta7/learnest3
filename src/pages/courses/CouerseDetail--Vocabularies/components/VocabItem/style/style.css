@@ -1,0 +1,41 @@
+.vocab-item-holder {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.vocab-img-holder {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-height: 300px;
+  max-width: 375px;
+}
+
+.vocab-img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  max-width: 375px;
+}
+
+.vocab-phrase-divider {
+  border-bottom: 1px solid #ccc;
+  width: 15%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=style.css.map */

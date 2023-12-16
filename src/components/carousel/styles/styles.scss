@@ -1,0 +1,19 @@
+@import "../../../assets/styles/variables/colors.module";
+@import "../../../assets/styles/variables/sizes.module";
+
+.firstPageCarousel {
+}
+
+.slider {
+  height: auto !important;
+  background-color: #fff !important;
+}
+.dot {
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  background-color: #777 !important;
+}
+
+.dot.selected {
+  background-color: $main-color-1 !important;
+}

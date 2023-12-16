@@ -1,0 +1,21 @@
+@import "../../assets/styles/variables/colors.module";
+
+.message-container {
+  .user-message {
+    background-color: $main-color-1-contrast;
+    border-bottom-right-radius: 0 !important;
+  }
+  .other-message {
+    background-color: $main-color-1-light;
+    border-bottom-left-radius: 0 !important;
+  }
+  .message-text {
+    color: #333;
+  }
+  .message-status {
+    .seen {
+    }
+    .date {
+    }
+  }
+}

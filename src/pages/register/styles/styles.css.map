@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACSA,AAAA,OAAO,CAAC;EACN,YAAY,EAVC,OAAO;EAWpB,iBAAiB,EAVC,OAAO;EAWzB,kBAAkB,EAVC,OAAO;EAW1B,qBAAqB,EAVC,OAAO;EAW7B,gBAAgB,EARC,OAAO;CASzB;;ADbD,AAAA,+BAA+B,CAAC;EAC9B,OAAO,EAAE,eAAe;EACxB,cAAc,EAAE,cAAc;EAC9B,eAAe,EAAE,wBAAwB;EACzC,WAAW,EAAE,kBAAkB;CAChC;;AAED,AAAA,+BAA+B,CAAC,KAAK,CAAC;EACpC,MAAM,EAAE,GAAG,CAAC,KAAK,CCJA,OAAO,CDIY,UAAU;EAC9C,gBAAgB,ECLC,OAAO;EDMxB,aAAa,EAAE,gBAAgB;CAChC;;AAED,AAAA,CAAC,AAAA,oBAAoB,CAAA;EACnB,MAAM,EAAE,WAAW;EACnB,SAAS,EAAE,GAAG;CACf",
+    "sources": [
+        "styles.scss",
+        "../../../assets/styles/variables/_colors.module.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

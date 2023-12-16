@@ -1,0 +1,6 @@
+@import "../../../../../assets/styles/variables/colors.module";
+@import "../../../../../assets/styles/variables/sizes.module";
+
+.answer-selected {
+  border: 3px solid $main-color-1;
+}

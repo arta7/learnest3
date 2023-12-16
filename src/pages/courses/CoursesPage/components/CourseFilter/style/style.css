@@ -1,0 +1,26 @@
+.filter-item-select {
+  background-color: #157dbc !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.filter-item {
+  background-color: #ffffff;
+  color: #157dbc;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid #157dbc;
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+  scrollbar-width: thin;
+}
+
+.react-horizontal-scrolling-menu--wrapper ::-webkit-scrollbar {
+  height: 3px !important;
+}
+
+.react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--scroll-container {
+  padding-bottom: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */

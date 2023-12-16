@@ -1,0 +1,22 @@
+@import "../../assets/styles/variables/colors.module";
+
+.add-note-accordion {
+  max-height: 0px !important;
+  transition: 0.3s;
+  overflow: hidden;
+  * {
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.open-accordion {
+  max-height: 230px !important;
+  transition: 0.3s;
+
+  * {
+    transition: 0.3s;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

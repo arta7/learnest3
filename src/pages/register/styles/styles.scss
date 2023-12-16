@@ -1,0 +1,27 @@
+@import "../../../assets/styles/variables/colors.module";
+
+.styles_react-code-input__CRulA {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+}
+
+.styles_react-code-input__CRulA input {
+  border: 1px solid $input-background !important;
+  background-color: $input-background;
+  border-radius: 0.5rem !important;
+}
+
+p.styles_title__1cca0 {
+  margin: 0 0 0.5rem 0;
+  direction: rtl;
+}
+
+.link-hover-effect {
+  transition: 0.2s;
+}
+.link-hover-effect :hover {
+  transition: 0.2s;
+  color: rgb(65, 123, 231) !important;
+}

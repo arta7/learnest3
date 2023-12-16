@@ -1,0 +1,12 @@
+.chat-button {
+  background-color: #157DBC;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 760px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */

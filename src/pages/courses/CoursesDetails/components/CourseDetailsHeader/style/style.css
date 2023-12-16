@@ -1,0 +1,25 @@
+.rate-holder {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  bottom: 18%;
+  right: 10%;
+  border-radius: 10px;
+}
+
+.rate-holder:first-child {
+  border-radius: 10px !important;
+}
+
+.rate-holder:nth-child(3) {
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 495px) {
+  .rate-holder {
+    right: 13%;
+    width: 75%;
+    height: 40%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+:export {
+  main-color-1: #157dbc;
+  main-color-1-dark: #105a88;
+  main-color-1-light: #64baf0;
+  main-color-1-contrast: #ebf7ff;
+  input-background: #dbdbdb;
+}
+
+div.aside {
+  width: 273px !important;
+  height: calc(100vh - 90px);
+}
+
+div.aside .tab-item {
+  cursor: pointer;
+  color: #157dbc;
+}
+
+.user-avatar {
+  position: relative;
+}
+
+.user-avatar .l1 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-size: 100% 100%;
+  background-position-y: -10%;
+  z-index: 0;
+}
+
+.user-avatar svg {
+  position: absolute;
+  width: 99px;
+  height: 60px;
+  top: 63px;
+  z-index: 1;
+}
+
+.user-avatar .l2 {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: calc(120px - 6px);
+  height: calc(120px - 6px);
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.user-avatar .l3 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: calc(120px - 16px);
+  height: calc(120px - 16px);
+  border-radius: 50%;
+  background-color: #ccc;
+  z-index: 3;
+}
+
+.user-avatar .l4 {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: calc(120px - 26px);
+  height: calc(120px - 26px);
+  border-radius: 50%;
+  background-color: #157dbc;
+  z-index: 4;
+}
+
+.user-avatar img {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: calc(120px - 36px);
+  height: calc(120px - 36px);
+  border-radius: 50%;
+  z-index: 5;
+}
+/*# sourceMappingURL=styles.css.map */

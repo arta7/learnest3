@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+In order to build applications with
+
+2
+00:00:04.000 --> 00:00:08.000
+React you should have at least three months of experience programming JavaScript.
+
+3
+00:00:08.000 --> 00:00:12.000
+So in this section, I'm going to cover the essential JavaScript features
+
+4
+00:00:12.000 --> 00:00:16.000
+that you're going to use a lot in React applications, such as let
+
+5
+00:00:16.000 --> 00:00:20.000
+vs. const keywords, object, the this keyword, and
+
+6
+00:00:20.000 --> 00:00:24.000
+how it behaves differently, arrow functions, object restructuring
+
+7
+00:00:24.000 --> 00:00:28.000
+the spread operator classes, and modules.
+
+8
+00:00:28.000 --> 00:00:32.000
+Make sure you know all these topics well before going further, otherwise
+
+9
+00:00:32.000 --> 00:00:36.000
+you're going to have a lot of difficulty later down the road. I just need to clarify
+
+10
+00:00:36.000 --> 00:00:40.000
+that in this section I'm not going to go really deep into these concepts because
+
+11
+00:00:40.000 --> 00:00:44.000
+this is a React course, not a JavaScript course, as I told you before,
+
+12
+00:00:44.000 --> 00:00:48.000
+I have other JavaScript courses for you, one is called JavaScript basics for
+
+13
+00:00:48.000 --> 00:00:52.000
+beginners and the other is object oriented programming in JavaScript.
+
+14
+00:00:52.000 --> 00:00:56.000
+The focus of the first course is on the art of problem solving.
+
+15
+00:00:56.000 --> 00:01:00.000
+It teaches you how to think like a programmer. Unfortunately there are a lot
+
+16
+00:01:00.000 --> 00:01:04.000
+of developers out there in the industry who can build applications with Angular
+
+17
+00:01:04.000 --> 00:01:08.000
+React and all kinds of fancy frameworks, but we can not
+
+18
+00:01:08.000 --> 00:01:12.000
+solve simple programming problems. Because they are self taught programmers,
+
+19
+00:01:12.000 --> 00:01:16.000
+they have never attended a college or university, they never learned
+
+20
+00:01:16.000 --> 00:01:20.000
+the fundamentals of computer science and software engineering, and that's why
+
+21
+00:01:20.000 --> 00:01:24.000
+I have designed this course. The focus of this second course is on more advanced
+
+22
+00:01:24.000 --> 00:01:28.000
+topics such as constructor functions, objects, prototypes,
+
+23
+00:01:28.000 --> 00:01:32.000
+inheritance, polymorphism, classes and more.
+
+24
+00:01:32.000 --> 00:01:36.000
+Alright, that's enough introduction, now let's get started!

@@ -1,0 +1,9 @@
+.css-heg063-MuiTabs-flexContainer {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+.css-heg063-MuiTabs-flexContainer button {
+  width: 30%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+  .dialog-inner {
+    width: calc(762px - 10.4rem) !important;
+  }
+}
+
+.dialog-inner {
+  width: calc(100vw - 10.4rem);
+  max-width: calc(100vw - 10.4rem);
+}
+
+.divider-line {
+  width: 60%;
+  border-bottom: 1px solid #d3d7e0;
+  position: absolute;
+  top: 5%;
+  left: 21%;
+}
+
+.in-english-text {
+  color: #bcbcbe;
+  background-color: #f7f9fc;
+  width: 100px;
+  height: 25px;
+  border-radius: 0.5rem;
+  font-size: 15px;
+}
+
+.line {
+  width: calc(50% - 50px);
+  height: 1px;
+  background-color: #d3d7e0;
+}
+
+.dialog-card {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.dialog-card-active {
+  width: 140px;
+  height: 140px;
+  color: white;
+  border-radius: 10px;
+  background: #157dbc url("../../../../../../../../assets/img/babak-images/check-icon.png") no-repeat 90% 90%;
+}
+/*# sourceMappingURL=modal-styles.css.map */

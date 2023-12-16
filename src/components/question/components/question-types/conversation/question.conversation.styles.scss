@@ -1,0 +1,14 @@
+@import "../../../../../assets/styles/variables/colors.module";
+@import "../../../../../assets/styles/variables/sizes.module";
+
+.conversation-q{
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    box-shadow: 0 3px 3px 2px #ebebeb;
+}
+.conversation-q--left{
+    border-bottom-left-radius: 0 !important;
+}
+.conversation-q--right{
+    border-bottom-right-radius: 0 !important;
+}

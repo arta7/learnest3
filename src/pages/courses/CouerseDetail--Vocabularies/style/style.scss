@@ -1,0 +1,26 @@
+// .vocab-section {
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.btn-cursor {
+  cursor: pointer;
+}
+
+.word-counter {
+  cursor: pointer;
+}
+
+.disabled-btn {
+  background-color: #888;
+}
+
+.action-btn {
+  max-width: calc(50% - 2.5rem);
+}

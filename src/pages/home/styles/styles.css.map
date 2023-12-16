@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACSA,AAAA,OAAO,CAAC;EACN,YAAY,EAVC,OAAO;EAWpB,iBAAiB,EAVC,OAAO;EAWzB,kBAAkB,EAVC,OAAO;EAW1B,qBAAqB,EAVC,OAAO;EAW7B,gBAAgB,EARC,OAAO;CASzB",
+    "sources": [
+        "styles.scss",
+        "../../../assets/styles/variables/_colors.module.scss",
+        "../../../assets/styles/variables/_sizes.module.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

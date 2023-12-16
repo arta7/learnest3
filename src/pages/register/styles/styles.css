@@ -1,0 +1,35 @@
+:export {
+  main-color-1: #157dbc;
+  main-color-1-dark: #105a88;
+  main-color-1-light: #64baf0;
+  main-color-1-contrast: #ebf7ff;
+  input-background: #dbdbdb;
+}
+
+.styles_react-code-input__CRulA {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: stretch !important;
+      -ms-flex-align: stretch !important;
+          align-items: stretch !important;
+}
+
+.styles_react-code-input__CRulA input {
+  border: 1px solid #dbdbdb !important;
+  background-color: #dbdbdb;
+  border-radius: .5rem !important;
+}
+
+p.styles_title__1cca0 {
+  margin: 0 0 .5rem 0;
+  direction: rtl;
+}
+/*# sourceMappingURL=styles.css.map */

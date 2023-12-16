@@ -1,0 +1,14 @@
+{
+    "version": 3,
+<<<<<<< Updated upstream
+    "mappings": "ACQA,AAAA,OAAO,CAAC;EACN,YAAY,EATC,OAAO;EAUpB,iBAAiB,EATC,OAAO;EAUzB,kBAAkB,EATC,OAAO;EAU1B,qBAAqB,EATC,OAAO;EAU7B,gBAAgB,EARC,OAAO;CASzB;;ADZD,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,GAAG,CAAC,KAAK,CCHJ,OAAO;CDIrB",
+=======
+    "mappings": "ACSA,AAAA,OAAO,CAAC;EACN,YAAY,EAVC,OAAO;EAWpB,iBAAiB,EAVC,OAAO;EAWzB,kBAAkB,EAVC,OAAO;EAW1B,qBAAqB,EAVC,OAAO;EAW7B,gBAAgB,EARC,OAAO;CASzB;;ADbD,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,GAAG,CAAC,KAAK,CCHJ,OAAO;EDIpB,KAAK,EAAE,GAAG;CACX",
+>>>>>>> Stashed changes
+    "sources": [
+        "styles.scss",
+        "../../../../assets/styles/variables/_colors.module.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

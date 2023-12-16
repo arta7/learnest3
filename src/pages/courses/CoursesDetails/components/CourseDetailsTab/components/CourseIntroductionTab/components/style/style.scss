@@ -1,0 +1,46 @@
+$adults-bg-color: #ff7e1c;
+$childs-bg-color: #29ae12;
+
+// --- Badge ---
+.badge-holder {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 15px 3px 8px;
+  margin: 0;
+
+  li {
+    padding: 2px 8px;
+    border-radius: 15px;
+    @media screen and (max-width: 419px) {
+      padding: 2px 8px;
+    }
+  }
+
+  li.adults {
+    list-style: none;
+    font-size: 11px;
+    color: white;
+    margin: 0 8px;
+    background-color: $adults-bg-color;
+    @media screen and (max-width: 419px) {
+      margin: 0;
+    }
+    @media screen and (max-width: 380px) {
+      margin: 0 -2px;
+    }
+  }
+  li.childs {
+    list-style: none;
+    font-size: 11px;
+    color: white;
+    margin: 0 8px;
+    background-color: $childs-bg-color;
+    @media screen and (max-width: 419px) {
+      margin: 0 2px;
+    }
+    @media screen and (max-width: 380px) {
+      margin: 0 3px;
+    }
+  }
+}

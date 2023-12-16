@@ -1,0 +1,13 @@
+@import "../../../assets/styles/variables/colors.module";
+
+.bold-large * {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  direction: inherit !important;
+}
+
+.level-determine-item {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

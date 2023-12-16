@@ -1,0 +1,54 @@
+@import "../../../../../../assets/styles/variables/colors.module";
+
+$image-size: calc(150px + (270 - 150) * ((100vw - 300px) / (800 - 300)));
+
+.btn-holder {
+  width: 32%;
+  height: 25%;
+  background-color: $main-color-1-light;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 30px;
+  @media screen and (max-width: 430px) {
+    width: 40%;
+  }
+}
+
+.icon-holder {
+  width: 30%;
+  height: 30%;
+  border-color: $main-color-1;
+  border-radius: 21px;
+}
+
+.btn-text {
+  font-size: 13px;
+  @media screen and (max-width: 490px) {
+    font-size: 11px;
+  }
+}
+
+.img-holder {
+  width: 100%;
+  height: $image-size;
+  // height: 180px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+  @media screen and (max-width: 570px) {
+    font-size: 2rem !important;
+  }
+  @media screen and (max-width: 490px) {
+    font-size: 1.5rem !important;
+  }
+}
+
+.css-gr983-MuiTypography-root {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

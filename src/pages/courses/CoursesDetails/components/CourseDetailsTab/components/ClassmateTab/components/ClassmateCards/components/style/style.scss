@@ -1,0 +1,9 @@
+.classmate-card-item {
+  border-radius: 60px;
+  @media screen and (max-width: 550px) {
+    width: 390px;
+  }
+  @media screen and (max-width: 425px) {
+    width: 340px;
+  }
+}

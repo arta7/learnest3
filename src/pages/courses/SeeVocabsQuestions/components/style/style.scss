@@ -1,0 +1,54 @@
+.vocab-question-item-holder {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  height: 300px;
+}
+
+.question-holder {
+  font-size: large;
+  font-weight: 700;
+}
+
+.vocab-info-holder {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  max-height: 300px;
+  max-width: 375px;
+}
+
+.answers-holder {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  // grid-template-columns: 1fr 1fr;
+  // grid-template-rows: 1fr 1fr;
+  max-height: 300px;
+  max-width: 375px;
+}
+
+.input-holder {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
+
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.selected-true-answer {
+  background-color: #1fc392a1;
+}
+
+.selected-wrong-answer {
+  background-color: #ee6969ab;
+}
+
+.notselected-true-answer {
+  background-color: #439aebc2;
+}

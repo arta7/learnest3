@@ -1,0 +1,27 @@
+$main-color-2: #157dbc;
+$main-color-2-dark: #105a88;
+$main-color-2-light: #64baf0;
+$main-color-2-contrast: #ebf7ff;
+$main-color-2-contrast-transparent: #ebf7ff5d;
+
+$main-color-1: #f3642e;
+$main-color-1-dark: #c95025;
+$main-color-1-light: #f38861;
+$main-color-1-contrast: #fff7f5;
+$main-color-1-contrast-transparent: #e7f3fc5d;
+
+$input-background: #dbdbdb;
+$red-color: red;
+
+:export {
+  main-color-1: $main-color-1;
+  main-color-1-dark: $main-color-1-dark;
+  main-color-1-light: $main-color-1-light;
+  main-color-1-contrast: $main-color-1-contrast;
+  //
+  main-color-2: $main-color-2;
+  main-color-2-dark: $main-color-2-dark;
+  main-color-2-light: $main-color-2-light;
+  main-color-2-contrast: $main-color-2-contrast;
+  input-background: $input-background;
+}

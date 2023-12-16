@@ -1,0 +1,29 @@
+@import "../../../../../../assets/styles/variables/colors.module";
+@import "../../../../../../assets/styles/variables/sizes.module";
+
+.main_header {
+  .header-icon-holder {
+    border: 1px solid $main-color-1;
+    border-radius: 0.7rem;
+    position: relative;
+    cursor: pointer;
+
+    .icon {
+      &- {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .notif-badge {
+      position: absolute;
+      right: -5px;
+      top: -7px;
+      color: #fff;
+      background-color: $red-color;
+      border-radius: 0.2rem;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

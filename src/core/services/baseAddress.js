@@ -1,0 +1,1 @@
+export const baseAddress = "https://learnest.app/api";

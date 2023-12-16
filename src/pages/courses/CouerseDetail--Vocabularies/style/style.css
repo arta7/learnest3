@@ -1,0 +1,13 @@
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.btn-cursor {
+  cursor: pointer;
+}
+
+.word-counter {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

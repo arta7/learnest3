@@ -1,0 +1,9 @@
+.btn-cursor {
+  cursor: pointer;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
