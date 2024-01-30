@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import "./style/style.scss";
 import { baseUrl } from "../../../core/services/baseUrl";
 
-const CourseDetail = () => {
+const CourseDetail = (props) => {
   const { id } = useParams();
   const token = localStorage.getItem("learnestToken");
   const [courseDetail, setCourseDetail] = useState();
@@ -35,6 +35,7 @@ const CourseDetail = () => {
 
   useEffect(() => {
     getSessions();
+    console.log('props : ',props)
   }, []);
 
   return (
